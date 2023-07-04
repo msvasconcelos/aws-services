@@ -9,6 +9,7 @@ No lambda_save_s3 recebe um evento e grava no S3
 
 - `lambda_function.py`: Arquivo com o código da função Lambda que salva no Dynamo.
 - `lambda_save_s3.py`: Arquivo com o código da função Lambda que arquiva no s3.
+- `lambda_send_sms.py`: Arquivo com o código da função Lambda que envia msg SMS.
 - `myevent.json`: Arquivo com exemplo de evento teste para envio no lambda lambda_function
 - `myeventsns.json`: Arquivo com exemplo de evento teste para envio no SNS
 - `myevents3.json`: Arquivo com exemplo de evento teste para armazenar no S3
@@ -24,6 +25,7 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE par
 
 ## Recursos Adicionais
 
+- [Curso AWS: SNS + SQS + LAMBDA + S3 + Python](https://www.youtube.com/playlist?list=PLtyCzf24Ov40hAgIfHohNcOIy8jo0IQ2h)
 - [Documentação do AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
 - [Documentação do AWS CLI](https://aws.amazon.com/cli/)
 - [Documentação do Python](https://docs.python.org/)
