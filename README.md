@@ -15,6 +15,10 @@ No lambda_save_s3 recebe um evento e grava no S3
 - `myevents3.json`: Arquivo com exemplo de evento teste para armazenar no S3
 - `README.md`: Documentação do projeto.
 
+## Projeto Funcionando
+![exemplo_aws](https://github.com/msvasconcelos/aws-services/assets/17626335/fc5d7cd9-7ef4-4d0c-839b-cb0866250c91)
+
+
 ## Contribuição
 
 Sinta-se à vontade para contribuir com melhorias para este projeto. Basta fazer um fork do repositório, realizar suas alterações e enviar um pull request.
