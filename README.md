@@ -2,12 +2,16 @@
 
 Este projeto tem como objetivo fornecer um exemplo básico de como usar o AWS Lambda com Python. O AWS Lambda é um serviço de computação sem servidor oferecido pela Amazon Web Services (AWS), que permite executar código sem precisar provisionar ou gerenciar servidores.
 
-Este lambda recebe um evento com nome, email e cpf e grava no DynamoDB
+No lambda_function recebe um evento com nome, email e cpf e grava no DynamoDB
+No lambda_save_s3 recebe um evento e grava no S3 
 
 ## Estrutura do Projeto
 
-- `lambda_function.py`: Arquivo com o código da função Lambda.
-- `myevent.json`: Arquivo com exemplo de evento teste para envio
+- `lambda_function.py`: Arquivo com o código da função Lambda que salva no Dynamo.
+- `lambda_save_s3.py`: Arquivo com o código da função Lambda que arquiva no s3.
+- `myevent.json`: Arquivo com exemplo de evento teste para envio no lambda lambda_function
+- `myeventsns.json`: Arquivo com exemplo de evento teste para envio no SNS
+- `myevents3.json`: Arquivo com exemplo de evento teste para armazenar no S3
 - `README.md`: Documentação do projeto.
 
 ## Contribuição
